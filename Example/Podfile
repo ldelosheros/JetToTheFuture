@@ -2,6 +2,8 @@ use_frameworks!
 
 abstract_target 'JetToTheFuture' do
   pod 'JetToTheFuture', :path => '../'
+  
+  pod 'BrightFutures', :git => 'https://github.com/ldelosheros/BrightFutures'
 
   target 'JetToTheFuture_Example' do
     platform :ios, '9.0'
